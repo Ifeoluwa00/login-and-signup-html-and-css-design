@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.section {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(restaurant-690975.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  transition: 5s;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 60s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url(couple-3852277.jpg);
+  }
+  10% {
+    background-image: url(children-1807511.jpg);
+  }
+  20% {
+    background-image: url(downtown-4045037.jpg);
+  }
+  30% {
+    background-image: url(family-2811003.jpg);
+  }
+  40% {
+    background-image: url(golden-gate-bridge-1030999.jpg);
+  }
+  50% {
+    background-image: url(happy-1836445.jpg);
+  }
+  70% {
+    background-image: url(jump-2731641.jpg);
+  }
+  80% {
+    background-image: url(beach-3058917.jpg);
+  }
+  90% {
+    background-image: url(atoll-2179102.jpg);
+  }
+  100% {
+    background-image: url(road-220058.jpg);
+  }
+}
+
+.container {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.container .heading {
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  font-size: 140%;
+  font-weight: bolder;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 rgb(226, 238, 248), -1px 1px 0 #000,
+    1px 1px 0 rgb(226, 238, 248);
+}
+
+h4 {
+  text-transform: lowercase;
+  margin: -45px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.container .title {
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 rgb(226, 238, 248), -1px 1px 0 #000,
+    1px 1px 0 rgb(226, 238, 248);
+  text-align: center;
+  font-size: 120%;
+}
+
+.container .content {
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 100%;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000 -1px 1px 0 #000;
+}
+
+.container .title h3 {
+  margin: 100px;
+  margin-bottom: -10px;
+}
+
+.container .icon {
+  color: blue;
+  font-size: 300%;
+  margin-top: 40px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 rgb(226, 238, 248), -1px 1px 0 #000;
+}
+
+.footer h5 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 rgb(226, 238, 248), -1px 1px 0 #000;
+  color: #ffffff;
+}
+
+.footer h6 {
+  width: 30%;
+  display: block;
+  margin: auto;
+  font-size: 70%;
+}
